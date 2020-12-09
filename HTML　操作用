@@ -1,0 +1,85 @@
+<！DOCTYPE html >
+< html >
+
+<頭>
+    < meta  HTTP-EQUIV = " Content-type " CONTENT = " index.html; charset = UTF-8 " >
+    < link  rel = " stylesheet " href = " style.css " >
+    < script  type = " text / javascript " src = " main.js " > </ script >
+    < meta  charset = " UTF-8 " >
+    <タイトル>おかん圧縮</タイトル>
+</ヘッド>
+< div  style = " display：flex; justify-content：center; align-items：center; " >
+
+
+
+    < form  id = " send " action = " https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8 " name = " SFform "
+        method = " POST " target = " sendform " >
+
+        <入力 タイプ=非表示 名= " oid "値= " 00D2x0000076A7c " >
+        <入力 タイプ=非表示の 名前= " retURL "値= "" >
+
+        <！---------------------------------------------- ------------------------->
+        <！-注意：省略のパラグラフは、デバッグデバッグ用にあります。デバッグモードでテストを入力は、ありの行をコメントしててください。->
+        <！-<input type = "hidden" name = "debug" value = 1>->
+        <！-<input type = "hidden" name = "debugEmail"->
+        <！-value = "longkuanyanben@gmail.com">->
+        <！---------------------------------------------- ------------------------->
+
+        <ラベル 用= "会社" > <スパン クラス="ラベル" >必須</スパン>貴社名</ラベル> < BR >
+        <入力 クラス= "マンダ" ID =" LAST_NAME " MAXLENGTH =" 30 "名前=" LAST_NAME "サイズ=" 20 "タイプ="テキスト"
+            プレースホルダ= "ホーヘ、LTD。 " /> < BR >
+        < span  class = " alertarea " > </ span >
+
+        <ラベル 用= " URL " >貴社のサイトURL </ラベル> < BR >
+        < input  id = " 00N5h000000yqDQ " maxlength = " 80 " name = " 00N5h000000yqDQ " size = " 20 " type = " text "
+            プレースホルダ= " hoge.com " /> < BR >
+        < span  class = " alertarea " > </ span >
+
+        <ラベル 用= " LAST_NAME " > <スパン クラス="ラベル" >必須</スパン>担当者名【姓】</ラベル> < BR >
+        < input  class = " text required " id = " 00N5h000000yqDV " maxlength = " 10 " name = " 00N5h000000yqDV " size = " 20 " type = " text "
+            プレースホルダ= "山田" /> < BR >
+        < span  class = " alertarea " > </ span >
+
+        <ラベル 用= " FIRST_NAME " > <スパン クラス="ラベル" >必須</スパン>担当者名【名】</ラベル> < BR >
+        < input  class = " text required " id = " 00N5h000000yqDa " maxlength = " 40 " name = " 00N5h000000yqDa " size = " 20 " type = " text "
+            プレースホルダ= "太郎" /> < BR >
+        < span  class = " alertarea " > </ span >
+
+        <ラベル のため= "状態" >都道府県</ラベル> < BR >
+        <入力 クラス= "テキスト" ID ="" MAXLENGTH = " 20 "名前="状態"サイズ=" 20 "タイプ="テキスト" /> < BR >
+        < span  class = " alertarea " > </ span >
+
+        <ラベル 用= "都市" >市区郡</ラベル> < BR >
+        <入力 ID = "街" MAXLENGTH =" 40 "名前="街"サイズ=" 20 "タイプ="テキスト" /> < BR >
+        < span  class = " alertarea " > </ span >
+
+        <ラベル 用= "ストリート" >町名・番地</ラベル>
+        < BR > < textareaの 名前= "ストリート" > </ TEXTAREA > < BR >
+        < span  class = " alertarea " > </ span >
+
+        <ラベル 用= "電話" > <スパン クラス="ラベル" >必須</スパン>貴社TEL </ラベル> < BR >
+        < input  class = " number required " id = " phone " maxlength = " 40 " name = " phone " size = " 20 " type = " text "
+            プレースホルダ= " 0311112222 " /> < BR >
+        < span  class = " alertarea " > </ span >
+
+        <ラベル 用= "モバイル" >担当者TEL </ラベル> < BR >
+        < input  class = " number " id = " mobile " maxlength = " 40 " name = " mobile " size = " 20 " type = " text "
+            プレースホルダ= " 09011112222 " /> < BR >
+        < span  class = " alertarea " > </ span >
+
+        <ラベル 用= "メール" > <スパン クラス="ラベル" >必須</スパン>メールアドレス</ラベル> < BR >
+        < input  class = " manda " id = " email " maxlength = " 80 " name = " email " size = " 20 " type = " text "
+            プレースホルダ= " tarou@hoge.co.jp " /> < BR >
+        < span  class = " alertarea " > </ span >
+
+        <ラベル のため= "説明" > <スパン クラス="ラベル" >必須</スパン>お問い合わせ内容</ラベル> < BR >
+        < TEXTAREAの クラス= "万田"名前=" 00N5h000000yq8A " > </ TEXTAREA > < BR >
+        < span  class = " alertarea " > </ span >
+
+        < input  id = " sf_submit " type = " submit " >
+    </フォーム>
+</ div >
+< iframe  name = " sendform " style = " width：0px; height：0px; border：0px; " > </ iframe >
+</本文>
+
+</ html >
